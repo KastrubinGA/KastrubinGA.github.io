@@ -1,8 +1,5 @@
 html, body { margin: 0px; padding: 0px}
 
-.text1 {
- 
-}
 .vstuplenie {
     display: block;
     padding: 100px;
@@ -137,4 +134,53 @@ a {
     height: 70px;
     /* Fixed height */
     object-fit: cover;
+}
+
+
+
+@media (max-width: 1100px) {
+    .text1 {
+        font-size: 30px
+    }
+}
+
+@media (max-width: 900px) {
+    .text1 {
+        font-size: 20px
+    }
+
+    @media (max-width: 900px) {
+        .button {
+            font-size: 15px
+           }
+   }
+
+@media (max-width: 680px) {
+    .text1 {
+        font-size: 15px
+    }
+}
+
+@media (max-width: 560px) {
+    .text1 {
+        font-size: 12px
+    }
+}
+
+@media (max-width: 560px) {
+    .button {
+        font-size: 10px
+       }
+}
+
+@media (max-width: 560px) {
+    .button {
+        width: 20px
+       }
+}
+
+@media (max-width: 490px) {
+    .text1 {
+        font-size: 8px
+    }
 }
