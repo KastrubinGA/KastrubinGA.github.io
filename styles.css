@@ -1,12 +1,5 @@
 html, body { margin: 0px; padding: 0px}
 
-.vstuplenie {
-    display: block;
-    padding: 100px;
-    height: 600px;
-    background-image: url(Fon_zagolovka1.jpg);
-    overflow: hidden;
-}
 .text1 {
     display: flex;
     align-items:center;
@@ -22,19 +15,6 @@ html, body { margin: 0px; padding: 0px}
   font-weight: <300>;
   font-style: ExtraLight 200;
    }
-.button {
- display: flex;
-font-size: 20px;
-justify-content: center;
-text-align: center;
-    height: 20px;
-    width: 220px;
-    padding: 20px 80px;
-    color: rgb(20, 3, 3);
-    background-color: rgb(182, 184, 248);
-    border-radius: 30px;
-    text-decoration: none;
-}
 
 .card {
     background: #fff;
@@ -146,41 +126,24 @@ a {
 
 @media (max-width: 900px) {
     .text1 {
-        font-size: 20px
+        font-size: 25px
     }
 
-    @media (max-width: 900px) {
-        .button {
-            font-size: 15px
-           }
-   }
+ @media (max-width: 680px) {
+    .text1 {
+        font-size: 20px
+    }
+}
 
-@media (max-width: 680px) {
+@media (max-width: 560px) {
     .text1 {
         font-size: 15px
     }
 }
 
-@media (max-width: 560px) {
-    .text1 {
-        font-size: 12px
-    }
-}
-
-@media (max-width: 560px) {
-    .button {
-        font-size: 10px
-       }
-}
-
-@media (max-width: 560px) {
-    .button {
-        width: 20px
-       }
-}
 
 @media (max-width: 490px) {
     .text1 {
-        font-size: 8px
+        font-size: 12px
     }
 }
